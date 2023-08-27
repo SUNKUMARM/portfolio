@@ -1,4 +1,9 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+}
 .navbar-container {
+  /* background-color: rgb(4, 37, 4); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,10 +15,12 @@
   display: flex;
   align-items: center;
   gap: 0.2rem;
+  background-color: rgb(0, 18, 0);
 }
 .navbar-logo {
   width: 2rem;
   height: 1.5rem;
+  background-color: rgb(4, 37, 4);
 }
 .navbar-title {
   color: #13ab67;
@@ -49,12 +56,12 @@
   align-items: center;
 }
 .navbar-list-content p:hover {
-  background-color: rgb(0, 35, 0);
+  background-color: rgb(4, 37, 4);
   color: #13ab67;
 }
 @media (min-width: 760px) {
   .navbar-container {
-    padding: 1rem 4rem;
+    padding: 1.2rem 4rem;
   }
   .navbar-icon-parent {
     display: none;

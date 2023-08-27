@@ -21,7 +21,7 @@ const NavBar = () => {
     window.addEventListener("resize", handleScreen);
   }, []);
   return (
-    <>
+    <div className="navbar">
       <div className="navbar-container">
         <div className="logo-parent">
           <img className="navbar-logo" src={logo} alt="logo" />
@@ -47,7 +47,7 @@ const NavBar = () => {
           <p>CONTACT</p>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
