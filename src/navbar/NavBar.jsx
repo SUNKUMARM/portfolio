@@ -32,8 +32,10 @@ const NavBar = () => {
             <AiOutlineMenu className="navbar-icon" />
           </div>
           <div id="myElement">
+            <p>HOME</p>
             <p>ABOUT</p>
             <p>PROJECTS</p>
+            <p>SKILLS</p>
             <p>RESUME</p>
             <p>CONTACT</p>
           </div>
@@ -41,8 +43,10 @@ const NavBar = () => {
       </div>
       {show && (
         <div className="navbar-list-content">
+          <p>HOME</p>
           <p>ABOUT</p>
           <p>PROJECTS</p>
+          <p>SKILLS</p>
           <p>RESUME</p>
           <p>CONTACT</p>
         </div>

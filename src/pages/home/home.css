@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 .home-content {
   margin-top: 5rem;
@@ -29,13 +29,14 @@
 }
 #intro {
   margin-top: 1.5rem;
-  padding: 0.5rem;
   font-size: 0.8rem;
   font-weight: 400;
+  width: 90%;
+  padding: 0.5rem;
 }
 .home-icon {
   font-size: 30px;
-  width: 100%;
+  width: 90%;
   margin: 2rem 0;
   color: #13ab67;
 }
@@ -64,10 +65,11 @@
   }
   #intro {
     margin: 0.5rem;
-    width: 30vw;
+    width: 35vw;
     font-size: 1rem;
   }
   .home-icon {
+    width: 100%;
     margin-top: 4rem;
   }
 }

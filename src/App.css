@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  background-color: rgb(4, 37, 4);
+}
+@media (min-width: 760px) {
+  .pages {
+    display: flex;
+    padding: 0 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}

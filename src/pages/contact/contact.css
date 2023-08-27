@@ -1,0 +1,19 @@
+.contact {
+  color: white;
+  margin-top: 1rem;
+  font-size: 20px;
+  position: fixed;
+  bottom: 30vh;
+  width: 10%;
+}
+.contact p {
+  margin-top: 1rem;
+}
+.contact p:hover {
+  color: #13ab67;
+}
+@media (min-width: 760px) {
+  .contact {
+    font-size: 40px;
+  }
+}
