@@ -36,7 +36,9 @@ const NavBar = () => {
             <p>ABOUT</p>
             <p>PROJECTS</p>
             <p>SKILLS</p>
-            <p>RESUME</p>
+            <a href="./" download>
+              RESUME
+            </a>
             <p>CONTACT</p>
           </div>
         </div>

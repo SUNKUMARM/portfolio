@@ -1,0 +1,61 @@
+.image {
+  width: 60vw;
+  transition: transform 450ms;
+  align-self: center;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.project-title {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.project-title:hover {
+  color: #13ab67;
+}
+.project-parent {
+  padding: 1rem;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+.project-content {
+  display: grid;
+  gap: 1rem;
+}
+.project-content p:hover {
+  color: #13ab67;
+}
+.tech {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+}
+.tech li {
+  border: 2px solid #13ab67;
+  text-align: center;
+  background-color: #13ab67;
+  border-radius: 5px;
+}
+.tech li:hover {
+  color: #13ab67;
+}
+
+@media (min-width: 720px) {
+  .project-title {
+    font-size: 2rem;
+  }
+  .image {
+    width: 30vw;
+  }
+  .project-parent {
+    flex-direction: row;
+    width: 75vw;
+    gap: 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+}

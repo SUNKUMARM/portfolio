@@ -1,0 +1,22 @@
+.resume-download {
+  height: 3rem;
+  margin: 2rem 1rem;
+  background-color: #13ab67;
+  text-align: center;
+  border-radius: 7px;
+  display: grid;
+  place-items: center;
+}
+.pdf {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.download-icon {
+  font-size: 20px;
+  padding-top: 0px;
+}

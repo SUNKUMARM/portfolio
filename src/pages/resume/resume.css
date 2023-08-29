@@ -1,0 +1,129 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(4, 37, 4);
+  color: white;
+}
+.resume-parent {
+  width: 85vw;
+  margin-top: 4rem;
+}
+.resume-name {
+  text-align: center;
+}
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+.skill {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.skill p:hover {
+  color: #13ab67;
+}
+.resume-contact p {
+  margin: 0.7rem 0;
+}
+.education-content {
+  margin: 1rem 0;
+}
+.role-hover {
+  color: #13ab67;
+  transition: transform 450ms;
+}
+.role-hover:hover {
+  transform: scale(1.1);
+}
+.hover {
+  color: #13ab67;
+  transition: transform 450ms;
+}
+.hover:hover {
+  transform: scale(0.98);
+}
+.resume-role {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem 0;
+  text-align: center;
+}
+.sub-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.project-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.font {
+  font-size: 0.8rem;
+}
+
+.education-content p:hover {
+  color: #13ab67;
+}
+.resume-contact p:hover {
+  color: #13ab67;
+}
+.objective:hover {
+  color: #13ab67;
+}
+.resume-pdf {
+  height: 3rem;
+  margin: 2rem 1rem;
+  background-color: #13ab67;
+  text-align: center;
+  border-radius: 7px;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 760px) {
+  .download-parent {
+    display: none;
+  }
+  .resume-parent {
+    padding: 0 2rem;
+    width: 70vw;
+    margin: 6rem 0 3rem 0;
+    border: 2px solid #13ab67;
+  }
+  .resume-name {
+    padding-top: 2rem;
+    font-size: 2.7rem;
+  }
+  .resume-role {
+    font-size: 1.8rem;
+  }
+  .resume-contact {
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .font {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+  }
+  .objective {
+    padding: 0 4rem;
+  }
+  .project-name {
+    font-size: 1.1rem;
+  }
+  .education-content {
+    padding: 0 4rem;
+  }
+  .skill {
+    padding: 0 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
