@@ -41,6 +41,7 @@ const Projects = () => {
             <li>React</li>
             <li>Firebase</li>
           </ul>
+          <a href="https://github.com/SUNKUMARM/Netflix-clone">github Link</a>
         </div>
       </div>
       <div className="project-parent">
@@ -70,6 +71,7 @@ const Projects = () => {
             <li>JavaScript</li>
             <li>React</li>
           </ul>
+          <a href="https://github.com/SUNKUMARM/portfolio">Github Link</a>
         </div>
       </div>
     </div>

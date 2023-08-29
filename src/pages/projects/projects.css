@@ -1,5 +1,11 @@
+.project-container {
+  background-color: rgb(4, 37, 4);
+  display: grid;
+  place-items: center;
+}
 .image {
-  width: 60vw;
+  width: 70vw;
+  height: 55vw;
   transition: transform 450ms;
   align-self: center;
 }
@@ -15,6 +21,7 @@
   color: #13ab67;
 }
 .project-parent {
+  width: 80vw;
   padding: 1rem;
   display: flex;
   color: white;
@@ -30,6 +37,7 @@
 }
 .tech {
   display: grid;
+  align-items: center;
   list-style-type: none;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1rem;
@@ -44,16 +52,18 @@
   color: #13ab67;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 760px) {
   .project-title {
     font-size: 2rem;
+    margin-top: 5rem;
   }
   .image {
-    width: 30vw;
+    width: 35vw;
+    height: 25vw;
   }
   .project-parent {
     flex-direction: row;
-    width: 75vw;
+    width: 80vw;
     gap: 2rem;
     margin-top: 3rem;
     font-size: 1rem;

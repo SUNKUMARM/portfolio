@@ -6,9 +6,10 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
+  height: 100vh;
 }
 .home-content {
-  margin-top: 5rem;
+  margin: 5rem 0;
   width: 90vw;
   color: white;
 }

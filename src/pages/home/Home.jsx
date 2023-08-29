@@ -1,11 +1,14 @@
 import React from "react";
-import NavBar from "../../navbar/NavBar";
 import "./home.css";
+import About from "../about/About";
 import { BsChevronDoubleDown } from "react-icons/bs";
+import Projects from "../projects/Projects";
+import Skills from "../skills/Skills";
+import Footer from "../footer/Footer";
+
 const Home = () => {
   return (
     <div className="home-container">
-      <NavBar />
       <div className="home-parent">
         <div className="home-content">
           <p>Hi, my name is </p>
@@ -19,6 +22,10 @@ const Home = () => {
           <BsChevronDoubleDown className="home-icon" />
         </div>
       </div>
+      <About />
+      <Projects />
+      <Skills />
+      <Footer />
     </div>
   );
 };

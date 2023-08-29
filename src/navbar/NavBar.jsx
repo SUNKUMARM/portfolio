@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo.jpeg";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
@@ -32,25 +33,23 @@ const NavBar = () => {
             <AiOutlineMenu className="navbar-icon" />
           </div>
           <div id="myElement">
-            <p>HOME</p>
-            <p>ABOUT</p>
-            <p>PROJECTS</p>
-            <p>SKILLS</p>
-            <a href="./" download>
-              RESUME
-            </a>
-            <p>CONTACT</p>
+            <NavLink to={"/"}>HOME</NavLink>
+            <NavLink to={"/about"}>ABOUT</NavLink>
+            <NavLink to={"/projects"}>PROJECTS</NavLink>
+            <NavLink to={"/skills"}>SKILLS</NavLink>
+            <NavLink to={"/resume"}>RESUME</NavLink>
+            <NavLink to={"/footer"}>CONTACT</NavLink>
           </div>
         </div>
       </div>
       {show && (
         <div className="navbar-list-content">
-          <p>HOME</p>
-          <p>ABOUT</p>
-          <p>PROJECTS</p>
-          <p>SKILLS</p>
-          <p>RESUME</p>
-          <p>CONTACT</p>
+          <NavLink to={"/"}>HOME</NavLink>
+          <NavLink to={"/about"}>ABOUT</NavLink>
+          <NavLink to={"/projects"}>PROJECTS</NavLink>
+          <NavLink to={"/skills"}>SKILLS</NavLink>
+          <NavLink to={"/resume"}>RESUME</NavLink>
+          <NavLink to={"/footer"}>CONTACT</NavLink>
         </div>
       )}
     </div>

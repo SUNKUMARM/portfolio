@@ -1,6 +1,7 @@
 .navbar {
   position: fixed;
-  width: 100%;
+  top: 0;
+  width: 100vw;
 }
 .navbar-container {
   display: flex;
@@ -32,29 +33,30 @@
   align-items: center;
 }
 .navbar-list-content {
-  /* width: 100%; */
   cursor: pointer;
   color: white;
   background-color: rgb(0, 18, 0);
 }
 #myElement {
-  gap: 2rem;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
+  display: none;
+}
+#myElement a {
+  text-decoration: none;
   color: white;
 }
-#myElement p:hover {
+#myElement a:hover {
   color: #13ab67;
 }
-.navbar-list-content p {
+.navbar-list-content a {
   width: 100%;
+  color: white;
   padding: 1rem;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navbar-list-content p:hover {
+.navbar-list-content a:hover {
   background-color: rgb(4, 37, 4);
   color: #13ab67;
 }
@@ -64,5 +66,13 @@
   }
   .navbar-icon-parent {
     display: none;
+  }
+  #myElement {
+    display: block;
+    gap: 2rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    color: white;
   }
 }
