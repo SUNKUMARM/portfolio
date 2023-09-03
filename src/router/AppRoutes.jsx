@@ -5,13 +5,12 @@ import About from "../pages/about/About";
 import Projects from "../pages/projects/Projects";
 import Skills from "../pages/skills/Skills";
 import Resume from "../pages/resume/Resume";
-import NavBar from "../navbar/NavBar";
+// import NavBar from "../navbar/NavBar";
 import Footer from "../pages/footer/Footer";
 
 const AppRoutes = () => {
   return (
     <div>
-      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

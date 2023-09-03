@@ -11,7 +11,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div name="/footer" className="footer-container">
       <div className="footer-semi-container">
         <div className="footer-contact-parent">
           <p className="footer-title">GET IN TOUCH!</p>
@@ -20,10 +20,7 @@ const Footer = () => {
             free to shoot me an email!
           </p>
           <div>
-            <a
-              className="hello"
-              href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftMSsbgZrCWJZTzhThltTzmRKJfLBrbHBkSCvLDclpdWfqrDcqmFdrsfxdZhgzHLTWmjV"
-            >
+            <a className="hello" href="mailto:sunkumar.mayilvel.com@gmail.com">
               Say Hello
               <FiSend className="send-icon" />
             </a>

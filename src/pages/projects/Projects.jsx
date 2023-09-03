@@ -2,10 +2,11 @@ import React from "react";
 import "./projects.css";
 import netflix from "../../assets/netflix.png";
 import portfolio from "../../assets/portfolio.png";
+import frenzo from "../../assets/frenzo.png";
 
 const Projects = () => {
   return (
-    <div className="project-container">
+    <div name="/projects" className="project-container">
       <p className="project-title">PROJECTS</p>
       <div className="project-parent">
         <img className="image" src={netflix} alt="netflix" />
@@ -72,6 +73,26 @@ const Projects = () => {
             <li>React</li>
           </ul>
           <a href="https://github.com/SUNKUMARM/portfolio">Github Link</a>
+        </div>
+      </div>
+
+      <div className="project-parent">
+        <img className="image" src={frenzo} alt="frenzo" />
+        <div className="project-content">
+          <p>• Interactive Design: Experience a user-friendly interface.</p>
+          <p>• Responsive Layout: Seamlessly adapts to all devices.</p>
+          <p>• Incorporates the latest web technologies.</p>
+          <p>
+            •Engrossing courses and dynamic features.Reflects my passion for
+            coding.
+          </p>
+          <ul className="tech">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+          <a href="https://github.com/SUNKUMARM/Frenzo-clone">Github Link</a>
         </div>
       </div>
     </div>

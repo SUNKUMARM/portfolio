@@ -42,7 +42,7 @@ img {
   color: white;
   padding: 2rem 0;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .skill-icon {
   font-size: 20px;

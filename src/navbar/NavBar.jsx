@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo.jpeg";
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -34,22 +35,38 @@ const NavBar = () => {
           </div>
           <div id="myElement">
             <NavLink to={"/"}>HOME</NavLink>
-            <NavLink to={"/about"}>ABOUT</NavLink>
-            <NavLink to={"/projects"}>PROJECTS</NavLink>
-            <NavLink to={"/skills"}>SKILLS</NavLink>
+            <Link to={"/about"} smooth={true} duration={500}>
+              ABOUT
+            </Link>
+            <Link to={"/projects"} smooth={true} duration={500}>
+              PROJECTS
+            </Link>
+            <Link to={"/skills"} smooth={true} duration={500}>
+              SKILLS
+            </Link>
             <NavLink to={"/resume"}>RESUME</NavLink>
-            <NavLink to={"/footer"}>CONTACT</NavLink>
+            <Link to={"/footer"} smooth={true} duration={500}>
+              CONTACT
+            </Link>
           </div>
         </div>
       </div>
       {show && (
         <div className="navbar-list-content">
           <NavLink to={"/"}>HOME</NavLink>
-          <NavLink to={"/about"}>ABOUT</NavLink>
-          <NavLink to={"/projects"}>PROJECTS</NavLink>
-          <NavLink to={"/skills"}>SKILLS</NavLink>
+          <Link to={"/about"} smooth={true} duration={500}>
+            ABOUT
+          </Link>
+          <Link to={"/projects"} smooth={true} duration={500}>
+            PROJECTS
+          </Link>
+          <Link to={"/skills"} smooth={true} duration={500}>
+            SKILLS
+          </Link>
           <NavLink to={"/resume"}>RESUME</NavLink>
-          <NavLink to={"/footer"}>CONTACT</NavLink>
+          <Link to={"/footer"} smooth={true} duration={500}>
+            CONTACT
+          </Link>
         </div>
       )}
     </div>

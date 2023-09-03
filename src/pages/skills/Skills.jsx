@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 const Skills = () => {
   const navigator = useNavigate();
   return (
-    <div className="skill-container">
+    <div name="/skills" className="skill-container">
       <div className="skill-parent">
         <p className="skill-title">Skills</p>
         <p className="skill-content">

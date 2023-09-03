@@ -1,12 +1,25 @@
 import React from "react";
 import "./resume.css";
-import NavBar from "../../navbar/NavBar";
 import Download from "../resume/download/Download";
+import logo from "../../assets/logo.jpeg";
+import { NavLink } from "react-router-dom";
 
 const Resume = () => {
   return (
     <div className="resume-container">
-      <NavBar />
+      <div className="res-nav">
+        <div className="resume-nav">
+          <div className="logo-parent">
+            <img className="navbar-logo" src={logo} alt="logo" />
+            <p className="navbar-title">SUNKUMAR</p>
+          </div>
+          <div>
+            <NavLink className="nav-col" to={"/"}>
+              HOME
+            </NavLink>
+          </div>
+        </div>
+      </div>
       <div className="resume-parent">
         <div className="download-parent">
           <Download />
