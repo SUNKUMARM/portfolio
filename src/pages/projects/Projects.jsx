@@ -3,6 +3,7 @@ import "./projects.css";
 import netflix from "../../assets/netflix.png";
 import portfolio from "../../assets/portfolio.png";
 import frenzo from "../../assets/frenzo.png";
+import Ecom from "../../assets/ecom.png";
 
 const Projects = () => {
   return (
@@ -46,6 +47,38 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-parent">
+        <img className="image" src={Ecom} alt="portfolio" />
+        <div className="project-content">
+          <p>
+            • This project is an e-commerce web application built using React
+            with React hooks, react Context, react Redux, react Router and
+            Styled Components can be used to build a friendly user experience.
+          </p>
+          <p>
+            • The project includes a filtering feature that allows users to
+            filter products based on Gender and Category.
+          </p>
+          <p>
+            • Users can add products to their shopping carts, remove items, and
+            view the cart’s contents. This enhances the shopping experience and
+            allows users to manage their selections effectively.
+          </p>
+          <p>
+            • Ensure the site is user-friendly and looks good on different
+            devices. Create a visually appealing interface inspired by Netflix's
+            style.
+          </p>
+          <ul className="tech">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+          </ul>
+          <a href="https://github.com/SUNKUMARM/E-Commerce">Github Link</a>
+        </div>
+      </div>
+      <div className="project-parent">
         <img className="image" src={portfolio} alt="portfolio" />
         <div className="project-content">
           <p>
@@ -75,7 +108,6 @@ const Projects = () => {
           <a href="https://github.com/SUNKUMARM/portfolio">Github Link</a>
         </div>
       </div>
-
       <div className="project-parent">
         <img className="image" src={frenzo} alt="frenzo" />
         <div className="project-content">

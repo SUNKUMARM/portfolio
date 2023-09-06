@@ -32,9 +32,27 @@ const Resume = () => {
           <div className="resume-contact font">
             <p>Mobile: +91-9786297723</p>
             <p>Website:</p>
-            <p>Email: sunkumar.mayilvel@gmail.com</p>
-            <p>LinkedIn: https://www.linkedin.com/in/sunkumar-m-41298b286/</p>
-            <p>Github: https://github.com/SUNKUMARM</p>
+            <p>
+              Email:{" "}
+              <a className="link" href="mailto:sunkumar.mayilvel@gmail.com">
+                sunkumar.mayilvel@gmail.com
+              </a>
+            </p>
+            <p>
+              LinkedIn:
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/sunkumar-m-41298b286/"
+              >
+                https://www.linkedin.com/in/sunkumar-m-41298b286/
+              </a>
+            </p>
+            <p>
+              Github:{" "}
+              <a className="link" href="https://github.com/SUNKUMARM">
+                https://github.com/SUNKUMARM
+              </a>
+            </p>
             <p>Adders: Coimbatore, Tamil Nadu, India.</p>
           </div>
         </div>

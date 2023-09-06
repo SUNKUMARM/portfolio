@@ -10,9 +10,10 @@ img {
 .skill-title {
   font-size: 1.4rem;
   font-weight: 600;
+}
+.skill-title:hover {
   color: #13ab67;
 }
-
 .skill-content:hover {
   color: #13ab67;
 }

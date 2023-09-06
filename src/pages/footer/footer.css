@@ -16,9 +16,10 @@
 }
 .footer-title {
   font-size: 1.4rem;
+}
+.footer-title:hover {
   color: #13ab67;
 }
-
 .footer-content:hover {
   color: #13ab67;
 }

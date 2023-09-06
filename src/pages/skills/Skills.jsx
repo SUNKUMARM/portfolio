@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div name="/skills" className="skill-container">
       <div className="skill-parent">
-        <p className="skill-title">Skills</p>
+        <p className="skill-title">SKILLS</p>
         <p className="skill-content">
           I've been doing web development for about 8 months now, and I'm always
           eager to learn more in this fast paced industry.

@@ -10,20 +10,28 @@ const About = () => {
         <img className="profile" src={profile} alt="profile" />
         <div className="paragraph">
           <p>
-            I am a dedicated and passionate web developer with a strong focus on
-            front-end development. I am driven by my desire to create
-            captivating user experiences that are both functional and visually
-            appealing.
+            Hello, I'm Sunkumar. I hold a Bachelor's degree in BSc Mathematics
+            from Chikkana Government Arts and Science College, where I also
+            pursued my Master's degree in MSc Mathematics. My educational
+            journey began at Kadri Mills HR Secondary School.
           </p>
           <p>
-            I have a Master's degree from Chikkana Government Arts College and I
-            also have experience working as an online maths tutor.
+            After completing my Master's degree, I embarked on a career in
+            education as an online tutor for 1.5 years at Focus Edumatics.During
+            this time, I made the exciting decision to transition into the field
+            of web development. To equip myself for this new endeavor, I
+            enrolled in a Frontend Development with React course. This immersive
+            experience allowed me to acquire proficiency in various
+            technologies, including HTML, CSS, JavaScript, React, as well as Git
+            and GitHub.
           </p>
           <p>
-            I am always eager to learn new things and embrace new challenges. I
-            am confident that my dedication to creativity and technical
-            excellence will enable me to contribute effectively to a
-            collaborative development environment.
+            I'm consistently eager to learn and thrive on new challenges. My
+            dedication to creativity and technical excellence equips me to
+            contribute effectively in collaborative development environments.
+            I'm excited about this new phase in my web development career, where
+            I anticipate taking on exciting challenges and crafting innovative
+            web solutions.
           </p>
           <p>
             Thank you for delving into my story. I'm genuinely excited about the

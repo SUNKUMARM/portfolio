@@ -104,6 +104,9 @@
   display: grid;
   place-items: center;
 }
+.link {
+  color: white;
+}
 
 @media (min-width: 760px) {
   .download-parent {
