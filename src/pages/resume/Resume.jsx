@@ -146,6 +146,35 @@ const Resume = () => {
               • Github: https://github.com/SUNKUMARM/portfolio
             </p>
           </div>
+          <div>
+            <h5 className="project-name hover">E-Commerce</h5>
+            <p className="font objective">
+              Explore our React-based e-commerce site for a modern shopping
+              experience. Enjoy sleek designs via Styled Components and access
+              advanced features like gender/category filters, cart management,
+              and secure user authentication, powered by React, React Hooks, and
+              Redux.
+            </p>
+            <br />
+            <p className="font objective">
+              • Github: https://github.com/SUNKUMARM/E-Commerce
+            </p>
+          </div>
+          <div>
+            <h5 className="project-name hover">
+              Frenzo Software Institute Clone
+            </h5>
+            <p className="font objective">
+              Created a dynamic Software Institute Website using HTML, CSS,
+              JavaScript, and React, showcasing our company's mission and
+              product offerings. Achieved an engaging user interface and
+              seamless cross-device experience.
+            </p>
+            <br />
+            <p className="font objective">
+              • Github: https://github.com/SUNKUMARM/Frenzo-clone
+            </p>
+          </div>
         </div>
         <div className="">
           <h3 className="sub-title hover">Languages</h3>

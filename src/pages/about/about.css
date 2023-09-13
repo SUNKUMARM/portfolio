@@ -2,12 +2,12 @@
   display: grid;
   place-items: center;
   background-color: rgb(4, 37, 4);
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .about-parent {
   display: grid;
   place-items: center;
-  padding: 2rem;
+  padding: 0 1rem 2rem 1rem;
   gap: 2rem;
   width: 80vw;
   color: white;
@@ -29,7 +29,8 @@
   flex-direction: column;
   gap: 2rem;
   font-size: 0.8rem;
-  text-align: center;
+  /* text-align: center; */
+  line-height: 25px;
 }
 @media (min-width: 760px) {
   .about-container {

@@ -4,7 +4,6 @@
   display: grid;
   place-items: center;
   gap: 3.5rem;
-  height: 100vh;
 }
 .footer-semi-container {
   width: 100%;
@@ -15,6 +14,7 @@
   justify-content: flex-end;
 }
 .footer-title {
+  margin-top: 4rem;
   font-size: 1.4rem;
 }
 .footer-title:hover {
@@ -25,6 +25,7 @@
 }
 .footer-content {
   font-size: 0.8rem;
+  line-height: 25px;
 }
 .footer-contact-parent {
   text-align: center;

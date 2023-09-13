@@ -13,6 +13,7 @@
   transform: scale(1.1);
 }
 .project-title {
+  margin-top: 4rem;
   color: white;
   font-size: 1.4rem;
   text-align: center;
@@ -29,6 +30,7 @@
   font-size: 0.8rem;
 }
 .project-content {
+  line-height: 25px;
   display: grid;
   gap: 1rem;
 }
