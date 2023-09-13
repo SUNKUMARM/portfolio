@@ -43,11 +43,20 @@ const Projects = () => {
             <li>React</li>
             <li>Firebase</li>
           </ul>
-          <a href="https://github.com/SUNKUMARM/Netflix-clone">github Link</a>
+          <div className="links">
+            <span className="git-link">
+              <a href="https://github.com/SUNKUMARM/Netflix-clone">
+                Github Link
+              </a>
+            </span>
+            {/* <span className="git-link">
+              <a href="">Live Link</a>
+            </span> */}
+          </div>
         </div>
       </div>
       <div className="project-parent">
-        <img className="image" src={Ecom} alt="portfolio" />
+        <img className="image" src={Ecom} alt="e-com" />
         <div className="project-content">
           <p>
             • This project is an e-commerce web application built using React
@@ -75,7 +84,14 @@ const Projects = () => {
             <li>React</li>
             <li>Redux</li>
           </ul>
-          <a href="https://github.com/SUNKUMARM/E-Commerce">Github Link</a>
+          <div className="links">
+            <span className="git-link">
+              <a href="https://github.com/SUNKUMARM/E-Commerce">Github Link</a>
+            </span>
+            <span className="git-link">
+              <a href="https://ecommerce-sunkumar.netlify.app/">Live Link</a>
+            </span>
+          </div>
         </div>
       </div>
       <div className="project-parent">
@@ -105,7 +121,14 @@ const Projects = () => {
             <li>JavaScript</li>
             <li>React</li>
           </ul>
-          <a href="https://github.com/SUNKUMARM/portfolio">Github Link</a>
+          <div className="links">
+            <span className="git-link">
+              <a href="https://github.com/SUNKUMARM/portfolio">Github Link</a>
+            </span>
+            <span className="git-link">
+              <a href="https://sunkumar.netlify.app/">Live Link</a>
+            </span>
+          </div>
         </div>
       </div>
       <div className="project-parent">
@@ -124,7 +147,16 @@ const Projects = () => {
             <li>JavaScript</li>
             <li>React</li>
           </ul>
-          <a href="https://github.com/SUNKUMARM/Frenzo-clone">Github Link</a>
+          <div className="links">
+            <span className="git-link">
+              <a href="https://github.com/SUNKUMARM/Frenzo-clone">
+                Github Link
+              </a>
+            </span>
+            <span className="git-link">
+              <a href="https://frenzo-sunkumar.netlify.app/">Live Link</a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
