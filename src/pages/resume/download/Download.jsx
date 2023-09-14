@@ -7,7 +7,7 @@ const Download = () => {
     <div className="resume-download">
       <a
         className="pdf"
-        href="https://www.cakeresume.com/pdf/s--L4NifHQiMnw7JZoifteuig--/ZBLG8.pdf"
+        href="https://www.cakeresume.com/pdf/s--FKawsZ21kl6iKYftFfJr7A--/62vzg.pdf"
         download
       >
         <b> Resume</b> <BsDownload className="download-icon" />
