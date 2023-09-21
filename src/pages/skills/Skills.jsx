@@ -2,7 +2,7 @@ import React from "react";
 import "./skills.css";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
-import javascript from "../../assets/js.png";
+import javascript from "../../assets/js.svg";
 import react from "../../assets/react.png";
 import git from "../../assets/git.png";
 import qry from "../../assets/query.png";
