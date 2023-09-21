@@ -12,6 +12,7 @@ const Projects = () => {
       <div className="project-parent">
         <img className="image" src={netflix} alt="netflix" />
         <div className="project-content">
+          <h2>Netflix clone </h2>
           <p>
             • Implement user registration and login using Firebase Auth for
             personalized experiences. Allow users to mark items as favorites and
@@ -58,6 +59,7 @@ const Projects = () => {
       <div className="project-parent">
         <img className="image" src={Ecom} alt="e-com" />
         <div className="project-content">
+          <h2>E-Commerce Website</h2>
           <p>
             • This project is an e-commerce web application built using React
             with React hooks, react Context, react Redux, react Router and
@@ -97,6 +99,7 @@ const Projects = () => {
       <div className="project-parent">
         <img className="image" src={portfolio} alt="portfolio" />
         <div className="project-content">
+          <h2>Portfolio</h2>
           <p>
             • Introducing myself, I share my background, passions, and career
             aspirations. I list skills and competencies relevant to my field.
@@ -134,6 +137,7 @@ const Projects = () => {
       <div className="project-parent">
         <img className="image" src={frenzo} alt="frenzo" />
         <div className="project-content">
+          <h2>Frenzo.io website clone</h2>
           <p>• Interactive Design: Experience a user-friendly interface.</p>
           <p>• Responsive Layout: Seamlessly adapts to all devices.</p>
           <p>• Incorporates the latest web technologies.</p>

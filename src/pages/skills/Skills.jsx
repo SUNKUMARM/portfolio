@@ -4,7 +4,10 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/js.png";
 import react from "../../assets/react.png";
-import git from "../../assets/github.png";
+import git from "../../assets/git.png";
+import qry from "../../assets/query.png";
+import redux from "../../assets/redux.png";
+import route from "../../assets/router.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
@@ -25,6 +28,9 @@ const Skills = () => {
           <img src={javascript} alt="javascript" />
           <img src={react} alt="react" />
           <img src={git} alt="git" />
+          <img src={qry} alt="qry" />
+          <img src={redux} alt="redux" />
+          <img src={route} alt="route" />
         </div>
       </div>
       <div className="resume-page" onClick={() => navigator("/resume")}>
